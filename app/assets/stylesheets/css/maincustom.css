@@ -1,0 +1,75 @@
+/*ToC
+
+1. 의견 섹션
+2. theme_button mini 미니버튼
+
+
+*/
+
+
+
+
+
+/*의견 섹션 커스텀 begin */
+.media > .pull-left-a {
+  padding-right: 0px;
+}
+
+.media > .pull-right-a {
+  padding-right: 0px;
+}
+
+.blog-author-meta-a img {
+  max-width: 60px;
+  border-radius: 50%;
+}
+
+.side_teaser-a img {
+  text-align: center;
+  font-size: 32px;
+  line-height: 60px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -2px;
+  background-color: #db2450;
+  color: #ffffff;
+}
+/*
+.side_teaser-a .pull-left-a + .media-body {
+  padding-left: 10px;
+}
+*/
+.side_teaser-a .pull-right-a + .media-body {
+  text-align: right;
+}
+
+.pull-left-a {
+    float: left!important;
+}
+
+.pull-right-a {
+    float: right!important;
+}
+
+.side_teaser-a .media-body-a {
+  text-align: center;
+
+}
+
+
+/*미니버튼 (신고, 북마크 등) */
+
+.theme_button-mini > [class*="fa-"] {
+  padding: 0 17px;
+  font-size: 1.5em;
+  line-height: 0.2;
+  position: relative;
+  top: 3px;
+}
+
+#mini {
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 0px 10px;
+}
